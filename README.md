@@ -72,7 +72,7 @@ npm run build
    NOTION_INVENTORY_DB_ID=your_inventory_database_id
    NOTION_PEOPLE_DB_ID=your_people_database_id
    NOTION_LOAN_REGISTER_DB_ID=your_loan_register_database_id
-   IP=your_device_ip_address
+   IP=http://ip:port
    PORT=3001
    ```
 
