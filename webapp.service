@@ -1,0 +1,20 @@
+[Unit]
+Description=Vite and Node Web Application
+# This makes sure the service starts after the network is available
+After=network.target
+
+[Service]
+# Replace 'pi' with your username if it's different
+User=admin
+# The full path to your project directory
+WorkingDirectory=/home/admin/tech-reg
+# The command to start your application (using the full path to npm)
+ExecStart=/usr/bin/npm start
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=webapp
+
+[Install]
+WantedBy=multi-user.target

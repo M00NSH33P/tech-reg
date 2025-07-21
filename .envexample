@@ -1,0 +1,14 @@
+# Replace with your Notion Integration Token
+NOTION_API_KEY=" "
+
+# Replace with your Notion Database IDs
+NOTION_INVENTORY_DB_ID=" "
+NOTION_LOAN_REGISTER_DB_ID=" "
+NOTION_PEOPLE_DB_ID=" "
+
+PORT="3010"
+
+# before the : put the ip address
+VITE_API_BASE_URL="http:// :3010"
+
+IP=" "
