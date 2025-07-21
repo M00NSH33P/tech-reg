@@ -233,6 +233,16 @@ To update the application:
 2. Run the update script (if available)
 3. Start the service: `sudo systemctl start webapp.service`
 
+
+### features to come 
+
+1. name search
+2. notion database template
+3. fix item search
+4. image support 
+5. sorting 
+
+
 ## License
 
 This project is licensed under the MIT License.
